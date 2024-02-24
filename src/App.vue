@@ -7,7 +7,7 @@ const resDate = 'string'
 
 let res = ref(resDate)
 if (true) {
-  res.value = 'bool'
+  res.value = "bool"
 }
 </script>
 <template>
