@@ -1,12 +1,12 @@
 <script setup lang="ts">
-import { RouterLink, RouterView } from "vue-router"
+import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
 import { ref } from 'vue'
 
-const resDate = "string"
+const resDate = 'string'
 
 let res = ref(resDate)
-res.value = "bool"
+res.value = 'bool'
 </script>
 <template>
   <header>
