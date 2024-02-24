@@ -3,12 +3,10 @@ import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
 import { ref } from 'vue'
 
-const resDate = 'string'
+const resDate = "string"
 
 let res = ref(resDate)
-if (true) {
-  res.value = "bool"
-}
+res.value = "bool"
 </script>
 <template>
   <header>
